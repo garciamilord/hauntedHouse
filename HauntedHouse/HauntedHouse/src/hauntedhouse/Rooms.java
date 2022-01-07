@@ -32,7 +32,7 @@ public class Rooms {
          option = new String [] { "Living Room" ,"Dining Room" , "Stairs"};
         ImageIcon deathdoor = new ImageIcon("frontdoor.jpg");
         JOptionPane.showMessageDialog(null, "Your at the front door.", "",JOptionPane.INFORMATION_MESSAGE, deathdoor);
-        personChoice = JOptionPane.showOptionDialog( null, "Where do you like to go?", "Front Door", 0,JOptionPane.INFORMATION_MESSAGE, null, option, option[0]);/*("Living Room,Dining Room, Stairs");*/
+        personChoice = JOptionPane.showOptionDialog( null, "Where do you like to go?", "Front Door", 0,JOptionPane.INFORMATION_MESSAGE, null, option, option[0]);
     if(personChoice == 0){
         livingRoom();
        
